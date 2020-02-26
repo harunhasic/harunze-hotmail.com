@@ -49,6 +49,7 @@
 
 
   <scm>
+      <developerConnection>scm:git:https://github.com/harunhasic/pet-clinic.gitgit</developerConnection>
     <tag>sfg-pet-clinic-0.0.3</tag>
   </scm>
 </project>
