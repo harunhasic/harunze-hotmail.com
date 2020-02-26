@@ -58,6 +58,8 @@ local.properties
 *.ipr
 *.ids
 *.orig
+.pom.xml
+.target
 
 ######################
 # Visual Studio Code
