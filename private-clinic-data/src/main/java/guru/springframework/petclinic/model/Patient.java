@@ -3,7 +3,7 @@ package guru.springframework.petclinic.model;
 import java.time.LocalDate;
 
 
-public class Patient {
+public class Patient extends BaseEntity {
     private String adress;
     private String city;
     private String telephone;
