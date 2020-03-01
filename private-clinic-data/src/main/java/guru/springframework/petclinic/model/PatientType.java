@@ -1,6 +1,6 @@
 package guru.springframework.petclinic.model;
 
-public class PetType {
+public class PatientType {
 
     private String name;
 

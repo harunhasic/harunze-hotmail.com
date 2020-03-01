@@ -1,4 +1,5 @@
 package guru.springframework.petclinic.model;
 
-public class Owner {
+public class Doctor extends Person {
+
 }
