@@ -1,5 +1,11 @@
+C:\Users\HP\sfg-pet-clinic\private-clinic-data\src\main\java\guru\springframework\petclinic\services\map\PatientServiceMap.java
 C:\Users\HP\sfg-pet-clinic\private-clinic-data\src\main\java\guru\springframework\petclinic\model\PatientType.java
-C:\Users\HP\sfg-pet-clinic\private-clinic-data\src\main\java\guru\springframework\petclinic\model\Vet.java
+C:\Users\HP\sfg-pet-clinic\private-clinic-data\src\main\java\guru\springframework\petclinic\services\map\DoctorServiceMap.java
 C:\Users\HP\sfg-pet-clinic\private-clinic-data\src\main\java\guru\springframework\petclinic\model\Patient.java
+C:\Users\HP\sfg-pet-clinic\private-clinic-data\src\main\java\guru\springframework\petclinic\services\map\AbstractMapService.java
+C:\Users\HP\sfg-pet-clinic\private-clinic-data\src\main\java\guru\springframework\petclinic\services\DoctorService.java
+C:\Users\HP\sfg-pet-clinic\private-clinic-data\src\main\java\guru\springframework\petclinic\model\Doctor.java
+C:\Users\HP\sfg-pet-clinic\private-clinic-data\src\main\java\guru\springframework\petclinic\services\CrudService.java
 C:\Users\HP\sfg-pet-clinic\private-clinic-data\src\main\java\guru\springframework\petclinic\model\Person.java
-C:\Users\HP\sfg-pet-clinic\private-clinic-data\src\main\java\guru\springframework\petclinic\model\Owner.java
+C:\Users\HP\sfg-pet-clinic\private-clinic-data\src\main\java\guru\springframework\petclinic\services\PatientService.java
+C:\Users\HP\sfg-pet-clinic\private-clinic-data\src\main\java\guru\springframework\petclinic\model\BaseEntity.java
