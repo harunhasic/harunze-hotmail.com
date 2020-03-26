@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List of patients</title>
+</head>
+<body>
+    <h1 th:text="'list of patients'">Patients</h1>
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        <!--/*@thymesVar id="patients" type="guru.springframework.privateclinic.model.Patient"*/-->
+        <tr th:each="patient :${patients}">
+            <td th:text="${patient.id}">1</td>
+            <td th:text="${patient.firstName}">Joe</td>
+            <td th:text="${patient.lastName}">Buck</td>
+        </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>

@@ -1,4 +1,4 @@
-package guru.springframework.petclinic.model;
+package guru.springframework.privateclinic.model;
 
 import java.time.LocalDate;
 
@@ -8,9 +8,27 @@ public class Patient extends BaseEntity {
     private String city;
     private String telephone;
     private LocalDate birthDate;
+    private String firstName;
+    private String lastName;
 
     public String getAdress() {
         return adress;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public void setAdress(String adress) {

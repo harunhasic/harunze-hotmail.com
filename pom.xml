@@ -16,7 +16,7 @@
     <groupId>com.example</groupId>
     <artifactId>private-clinic</artifactId>
     <version>0.0.3</version>
-    <name>sfg-pet-clinic</name>
+    <name>private-clinic</name>
     <description>IUS Private Clinic</description>
 
     <properties>

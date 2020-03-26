@@ -1,11 +1,13 @@
-package guru.springframework.petclinic.services.map;
+package guru.springframework.privateclinic.services.map;
 
-import guru.springframework.petclinic.model.Patient;
-import guru.springframework.petclinic.services.CrudService;
+import guru.springframework.privateclinic.model.Patient;
+import guru.springframework.privateclinic.services.PatientService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-public class PatientServiceMap extends AbstractMapService<Patient, Long> implements CrudService<Patient, Long> {
+@Service
+public class PatientServiceMap extends AbstractMapService<Patient, Long> implements PatientService {
     @Override
     public Set<Patient> findAll() {
         return super.findAll();
@@ -31,5 +33,10 @@ public class PatientServiceMap extends AbstractMapService<Patient, Long> impleme
     @Override
     public Patient findById(Long id) {
         return super.findById(id);
+    }
+
+    @Override
+    public Patient findByLastName(String lastName) {
+        return null;
     }
 }
